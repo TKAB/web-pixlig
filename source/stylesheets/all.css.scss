@@ -1,6 +1,9 @@
+$text_color: #444;
+$background_color: #f8f8f8;
+
 body {
-  color: #444;
-  background-color: #f8f8f8;
+  color: $text_color;
+  background-color: $background_color;
   font-family: "PT Serif", serif;
 }
 
@@ -9,14 +12,33 @@ body {
   margin-top: 30px;
 }
 
+// PAGE HEADER
+.header {
+  width: auto;
 
-// Page title
-.title h1 {
-  font-family: "Novecentowide-Light", "Helvetica Neue";
-  font-weight: 100;
-  font-style: normal;
-  text-transform: uppercase;
   text-align: center;
 
-  font-size: 4em;
+  h1.title {
+    display: inline;
+    margin: 0px auto;
+    padding-bottom: 10px;
+
+    font-family: "Novecentowide-Light", "Helvetica Neue";
+    font-weight: 100;
+    font-style: normal;
+    text-transform: uppercase;
+
+    font-size: 4em;
+
+    border-bottom: solid 1px $text_color;
+  }
+
+  h3.subtitle {
+    margin: 20px auto;
+    padding-top: 10px;
+
+    font-weight: 150;
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
 }
