@@ -4,7 +4,7 @@ $background_color: rgb(145, 184, 206);
 body {
   color: $text_color;
   background-color: $background_color;
-  font-family: "PT Serif", serif;
+  font-family: "Helvetica Neue";
 }
 
 // First row
@@ -14,7 +14,7 @@ body {
 
 // PAGE HEADER
 .title {
-  padding-top: 300px;
+  padding-top: 200px;
   font-family: "Novecentowide-Light", "Helvetica Neue";
 
   h1.title {

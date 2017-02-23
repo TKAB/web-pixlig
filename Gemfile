@@ -1,9 +1,10 @@
-source :rubygems
+# If you do not have OpenSSL installed, change
+# the following line to use 'http://'
+source 'https://rubygems.org'
 
-gem "middleman", "~>3.0.6"
-
-gem 'less'
+# Middleman Gems
+gem 'middleman', '~> 4.2'
+gem 'middleman-livereload', '~> 3.4'
 
 gem 'therubyracer'
 
-gem "middleman-livereload", "~>3.0.1"
