@@ -4,7 +4,7 @@ $background_color: rgb(145, 184, 206);
 body {
   color: $text_color;
   background-color: $background_color;
-  font-family: "Helvetica Neue";
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif;
 }
 
 // First row
@@ -14,7 +14,8 @@ body {
 
 // PAGE HEADER
 .title {
-  padding-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   font-family: "Novecentowide-Light", "Helvetica Neue";
 
   h1.title {
@@ -30,9 +31,9 @@ body {
   }
 
   h3.subtitle {
-  font-family: "Novecentowide-Light", "Helvetica Neue";
+    font-family: "Helvetica Neue";
     font-size: 1.5em;
-    font-weight: 150;
+    font-weight: 200;
     line-height: 1.2em;
 
     margin: 0px;
