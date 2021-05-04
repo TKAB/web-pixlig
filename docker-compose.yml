@@ -1,0 +1,13 @@
+version: '3'
+services:
+  middleman:
+    environment:
+      - CLIENT_HOST=docker.for.mac.localhost:4567
+    build: .
+    command: bundle exec middleman server
+    volumes:
+      - .:/app
+    ports:
+      - "4567:4567"
+    stdin_open: true
+    tty: true
