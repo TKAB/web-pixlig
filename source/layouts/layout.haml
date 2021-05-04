@@ -15,5 +15,6 @@
     = javascript_include_tag "site"
   %body{:class => page_classes}
     .container
-      .col-sm-11.col-sm-offset-1
-        = yield
+      .row
+        .col-sm-11.col-sm-offset-1
+          = yield
